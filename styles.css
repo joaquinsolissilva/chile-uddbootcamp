@@ -151,7 +151,27 @@ a{
     opacity: 1;
 }
 
-.slides {
+.slides1 {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    display: flex;
+    width: 100%;
+    transition: 1s ease-in-out all;
+}
+
+.slides2 {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    display: flex;
+    width: 100%;
+    transition: 1s ease-in-out all;
+}
+
+.slides3 {
     position: absolute;
     top: 50%;
     left: 0;
