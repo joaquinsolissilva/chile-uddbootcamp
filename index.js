@@ -100,15 +100,15 @@ document.querySelector(".prev-slide3").addEventListener("click", function(){
 //    restart();
 })
 
-
-document.querySelector("#hera").addEventListener("mouseover", function() {
+document.querySelector(".btn-mail").addEventListener("mouseover", function() {
     console.log("mouseover")
-    let hero = document.querySelector("#hera")
-    hero.style.backgroundColor = "pink"
+    let btnMail = document.querySelector(".btn-mail")
+    btnMail.style.backgroundColor = "black"
 })
 
-document.querySelector("#hera").addEventListener("mouseout", function() {
-    console.log("mouseover")
-    let hero = document.querySelector("#hera")
-    hero.style.backgroundColor = ""
+document.querySelector(".btn-mail").addEventListener("mouseout", function() {
+    console.log("mouseout")
+    let btnMail = document.querySelector(".btn-mail")
+    btnMail.style.backgroundColor = ""
 })
+

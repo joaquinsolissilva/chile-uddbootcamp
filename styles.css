@@ -1,6 +1,6 @@
 body {
     margin:10px;
-    background-color: white;
+    background-color: white ;
 }
 
 h2 {
@@ -58,6 +58,7 @@ a{
     display: flex;
     flex-direction: column;
     border-radius: 0.5rem;
+    background-color: white;
 }
 
 .card-header {
@@ -77,6 +78,9 @@ a{
     display: flex;
     flex-direction: column;
     background-color: rgba(255,255,255,1);
+    /*box-shadow: 0 10px 15px -3px rgb(0,0,0,0.1);*/
+    overflow: hidden;
+    border-radius: 0.5rem;
 }
 
 
@@ -111,6 +115,14 @@ a{
     object-fit: cover;
     border-radius: 0.5rem ; 
 }
+
+.column-img__joaco {
+    width: 100%;
+    max-height: 550px;
+    object-fit: cover;
+    border-radius: 0.5rem ; 
+}
+
 .column-text {
     padding: 0 5rem;
 }
