@@ -100,4 +100,18 @@ document.querySelector(".prev-slide3").addEventListener("click", function(){
 //    restart();
 })
 
+document.querySelector(".joaquinsolis").addEventListener("mouseover", function() {
+    console.log("mouseover")
+    let joaquinsolis = document.querySelector(".joaquinsolis")
+    joaquinsolis.style.backgroundColor = "white"
+    joaquinsolis.style.borderRadius = "5px"
+    joaquinsolis.style.height = "30px"
+    joaquinsolis.style.width = "120px"
+})
+
+document.querySelector(".joaquinsolis").addEventListener("mouseout", function() {
+    console.log("mouseout")
+    let joaquinsolis = document.querySelector(".joaquinsolis")
+    joaquinsolis.style.backgroundColor = ""
+})
 
