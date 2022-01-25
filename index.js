@@ -100,15 +100,4 @@ document.querySelector(".prev-slide3").addEventListener("click", function(){
 //    restart();
 })
 
-document.querySelector(".btn-mail").addEventListener("mouseover", function() {
-    console.log("mouseover")
-    let btnMail = document.querySelector(".btn-mail")
-    btnMail.style.backgroundColor = "black"
-})
-
-document.querySelector(".btn-mail").addEventListener("mouseout", function() {
-    console.log("mouseout")
-    let btnMail = document.querySelector(".btn-mail")
-    btnMail.style.backgroundColor = ""
-})
 
