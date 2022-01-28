@@ -249,7 +249,7 @@ a{
 
 @media (max-width: 1000px) {
     body {
-        background-color: white;
+        background-color: rgb(177, 194, 214);
     }
 
     .container {
@@ -259,11 +259,16 @@ a{
     .container-info {
         grid-template-columns: 1fr;
     }
+
+    .column-text {
+        padding: 1rem 2rem;
+        margin: 0;
+    }
 }
 
 @media (max-width: 650px) {
     body {
-        background-color: white;
+        background-color: rgb(177, 194, 214);
     }
 
     .container {
@@ -273,4 +278,23 @@ a{
     .container-info {
         grid-template-columns: 1fr;
     }
+
+    .column-text {
+        padding: 1rem 2rem;
+        margin: 0;
+    }
 }
+
+.ctr {
+    width: 500px;
+    height: auto;
+    border: 1px solid;
+}
+
+#turn {
+    width: 200px;
+    height: auto;
+    transition: all 0.9s ease;
+    border: 0.0625em solid red;
+    /*border-radius: 1000rem;*/
+  }

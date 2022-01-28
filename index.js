@@ -1,5 +1,7 @@
 const delay = 3000
 
+/*document.getelementbyid()*/
+
 const slides1 = document.querySelector('.slides1');
 
 const slides2 = document.querySelector('.slides2');
@@ -115,3 +117,61 @@ document.querySelector(".joaquinsolis").addEventListener("mouseout", function() 
     joaquinsolis.style.backgroundColor = ""
 })
 
+
+/*
+var tamañoImagen = document.querySelector('.ctr')
+
+
+tamañoImagen.style.width = '500px'//como hago para que esto se lea del html y no tener que tomarlo asi, lo intente y no me dejaba entrar a la propiedad, siempre me tiraba en blacno
+
+
+function getNumbersInString(string) {//no entiendo bien todo, esta funcion no la hice yo
+  var tmp = string.split("");
+  var map = tmp.map(function(current) {
+    if (!isNaN(parseInt(current))) {
+      return current;
+    }
+  });
+
+  var numbers = map.filter(function(value) {
+    return value != undefined;
+  });
+
+  return numbers.join("");
+}
+ 
+function Agrandar() {  
+
+    var tamañoImagen = document.querySelector('.ctr')
+    var tamaño = tamañoImagen.style.width
+    var size = Number(getNumbersInString(tamaño))
+
+    size += 100
+    console.log(size)
+
+    tamañoImagen.style.width = `${size}px`;
+    tamañoImagen.style.height = 'auto';
+    console.log(tamañoImagen.style.width)  
+}
+
+function Achicar() {  
+
+    var tamañoImagen = document.querySelector('.ctr')
+    var tamaño = tamañoImagen.style.width
+    var size = Number(getNumbersInString(tamaño))
+
+    size -= 100
+    console.log(size)
+
+    tamañoImagen.style.width = `${size}px`;
+    tamañoImagen.style.height = 'auto';
+    console.log(tamañoImagen.style.width)  
+}
+
+
+
+let turnAngle = 10;
+function turn(image) {
+  image.setAttribute("style", "transform: rotate(" + turnAngle + "deg)");
+  turnAngle = turnAngle + 10;
+}*/
