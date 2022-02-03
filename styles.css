@@ -320,7 +320,7 @@ a{
     margin: 0;
     padding: 0;
     /*position: absolute;*/
-    /*overflow:scroll;*/
+    /*overflow:scroll;*/ 
     width: 199.5px; 
     height: 199.5px; 
     z-index: 9001;
