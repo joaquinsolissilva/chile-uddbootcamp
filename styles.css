@@ -291,10 +291,38 @@ a{
     border: 1px solid;
 }
 
-#turn {
-    width: 200px;
-    height: auto;
+#turn1 {
+    width: 199px;
+    height: 199px;
     transition: all 0.9s ease;
     border: 0.0625em solid red;
+    visibility: visible;
+    z-index: 9001; 
+    opacity: 1;
+    position: absolute;
     /*border-radius: 1000rem;*/
   }
+
+#turn2 {
+    width: 199px;
+    height: 199px;
+    transition: all 0.9s ease;
+    border: 0.0625em solid red;
+    visibility: visible;
+    z-index: 9002; 
+    opacity: 1;
+    position: absolute;
+    /*border-radius: 1000rem;*/
+}
+
+.microrotacion {
+    float: left;
+    margin: 0;
+    padding: 0;
+    /*position: absolute;*/
+    /*overflow:scroll;*/
+    width: 199.5px; 
+    height: 199.5px; 
+    z-index: 9001;
+    display: block;
+}

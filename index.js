@@ -118,7 +118,7 @@ document.querySelector(".joaquinsolis").addEventListener("mouseout", function() 
 })
 
 
-/*
+
 var tamañoImagen = document.querySelector('.ctr')
 
 
@@ -171,7 +171,29 @@ function Achicar() {
 
 
 let turnAngle = 10;
-function turn(image) {
-  image.setAttribute("style", "transform: rotate(" + turnAngle + "deg)");
-  turnAngle = turnAngle + 10;
-}*/
+function turn(inputimg) {
+    image = document.querySelector(`.${inputimg}`)
+    image.setAttribute("style", "transform: rotate(" + turnAngle + "deg)");
+    turnAngle = turnAngle + 10;
+}
+
+
+function PPL() {  
+
+    var img1 = document.querySelector(".turn1")
+    var img2 = document.querySelector(".turn2")
+
+    img1.style.zIndex = 9002
+    img2.style.zIndex = 9001
+
+}
+
+function PPX() {  
+
+    var img1 = document.querySelector(".turn1")
+    var img2 = document.querySelector(".turn2")
+
+    img1.style.zIndex = 9001
+    img2.style.zIndex = 9002
+
+}
